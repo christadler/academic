@@ -184,6 +184,10 @@ main {
   margin-bottom: 2.5rem;
 }
 
+.cards-grid--single {
+  grid-template-columns: 1fr;
+}
+
 .card {
   background: var(--white);
   border: 1px solid var(--border);
