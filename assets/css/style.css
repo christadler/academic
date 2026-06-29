@@ -205,6 +205,25 @@ main {
   border-color: var(--accent);
 }
 
+.card-type {
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+  background: #eef5fb;
+  color: var(--primary);
+}
+
+.card-type--presentation {
+  background: #f0f7ee;
+  color: #3a7d44;
+}
+
 .card-year {
   font-family: 'Arial', sans-serif;
   font-size: 0.78rem;
