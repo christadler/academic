@@ -205,6 +205,18 @@ main {
   border-color: var(--accent);
 }
 
+.card-thumb {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  border-radius: 7px 7px 0 0;
+  border-bottom: 1px solid var(--border);
+  margin: -1.25rem -1.5rem 1rem -1.5rem;
+  width: calc(100% + 3rem);
+}
+
 .card-type {
   display: inline-block;
   font-family: 'Arial', sans-serif;
