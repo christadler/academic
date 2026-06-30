@@ -58,11 +58,24 @@
   <div class="cards-grid cards-grid--single">
 
     <div class="card">
+      <img class="card-thumb" src="files/thumbnails/ISC26_Presentation.png" alt="SeisSol RDM presentation preview">
+      <div class="card-type card-type--presentation">Presentation</div>
+      <div class="card-year">ISC &bull; Hamburg, June 2026 &mdash; Workshop: Readiness of HPC Extreme-scaling Applications (3rd Edition)</div>
+      <h3>Research Data Management for SeisSol using the Geo-INQUIRE Simulation Data Lake</h3>
+      <p style="font-family:'Arial',sans-serif; font-size:0.82rem; color:var(--text-light);">Iris Christadler (LMU) &middot; Mathilde Marchandon (LMU) &middot; Alice-Agnes Gabriel (LMU/Scripps)</p>
+      <p>Dynamic rupture simulations with SeisSol are among the most computationally demanding workflows in Seismology and routinely run on Tier-0 systems. With the increase in computational power, larger parameter studies are now possible. While the scaling behavior of SeisSol is well established, Research Data Management of large-scale parameter studies remains challenging. Expensive HPC results need to be stored and preserved in a FAIR (Findable, Accessible, Interoperable, Reusable) manner. CINECA's Simulation Data Lake (SDL) is tightly integrated with its HPC infrastructure and provides long-term storage of Earth Science Data for the community. The SDL is part of CINECA's AI Factory. We used the SDL to store a catalog of dynamic rupture simulations and provided a rapid-response workflow as a DT-Geo "digital twin component". This workflow allows us to detect moderate-to-large events in the Alto Tiberina (Italy) fault system, download data from the Near-Fault Observatory, and search the catalog for the best-fitting scenario within minutes. Building on this work, we present our vision for a dedicated NFDI4Earth Lighthouse Use Case project to develop metadata standards, upload wizards, and data tools for the broader earthquake and tsunami simulation community.</p>
+      <div class="card-links">
+        <a class="badge" href="files/2026-isc-seissolrdm-presentation.pdf" target="_blank">Slides PDF</a>
+        <a class="badge" href="https://pop-coe.eu/news/events/readiness-of-hpc-extreme-scaling-applications-3rd-edition" target="_blank" rel="noopener">Workshop Website</a>
+      </div>
+    </div>
+
+    <div class="card">
       <img class="card-thumb" src="files/thumbnails/ISC26_WHPC_DataLake.png" alt="HPC Workflow poster preview">
       <div class="card-type">Poster</div>
       <div class="card-year">ISC &bull; Hamburg, June 2026</div>
       <h3>High-Performance Computing Workflow for Rapid-Response Physics-Based 3D Earthquake Simulations Integrated In Data Lake</h3>
-      <p style="font-family:'Arial',sans-serif; font-size:0.82rem; color:var(--text-light);">Iris Christadler (LMU) &middot; Mathilde Marchandon (LMU) &middot; Alice Gabriel (LMU/Scripps)</p>
+      <p style="font-family:'Arial',sans-serif; font-size:0.82rem; color:var(--text-light);">Iris Christadler (LMU) &middot; Mathilde Marchandon (LMU) &middot; Alice-Agnes Gabriel (LMU/Scripps)</p>
       <p>Dynamic rupture simulations are the gold standard for earthquake modeling, but setting them up after an event can take weeks. This work presents a fully automated, rapid-response workflow that delivers a first simulation result within an hour of an earthquake.
 The approach relies on a pre-computed catalog of physics-based 3D rupture scenarios for the Alto Tiberina fault (Italy), generated using SeisSol on SuperMUC-NG@LRZ. When an earthquake occurs, the workflow automatically retrieves observational data from the TABOO Near-Fault Observatory, compares it to the catalog, and outputs the closest-matching scenario within minutes.
 For FAIR data access, the catalog is stored in the Geo-INQUIRE Simulation Data Lake (SDL). The workflow is implemented in Common Workflow Language, and a Docker image is available for easy try-out.</p>
@@ -76,19 +89,6 @@ For FAIR data access, the catalog is stored in the Geo-INQUIRE Simulation Data L
         <a class="badge" href="https://github.com/NicoSchlw/search_SeisSol_ensemble" target="_blank" rel="noopener">Step 5: Find closest Match</a>
         <a class="badge" href="https://doi.org/10.82554/sdl-86.57" target="_blank" rel="noopener">Catalog of 100 entries</a>
         <a class="badge" href="https://hub.docker.com/r/christadler/dtgeo_wf7403_rr" target="_blank" rel="noopener">Docker image for Rapid-Response Workflow</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img class="card-thumb" src="files/thumbnails/ISC26_Presentation.png" alt="SeisSol RDM presentation preview">
-      <div class="card-type card-type--presentation">Presentation</div>
-      <div class="card-year">ISC &bull; Hamburg, June 2026 &mdash; Workshop: Readiness of HPC Extreme-scaling Applications (3rd Edition)</div>
-      <h3>Research Data Management for SeisSol using the Geo-INQUIRE Simulation Data Lake</h3>
-      <p style="font-family:'Arial',sans-serif; font-size:0.82rem; color:var(--text-light);">Iris Christadler (LMU) &middot; Mathilde Marchandon (LMU) &middot; Alice Gabriel (LMU/Scripps)</p>
-      <p>Dynamic rupture simulations with SeisSol are among the most computationally demanding workflows in Seismology and routinely run on Tier-0 systems. With the increase in computational power, larger parameter studies are now possible. While the scaling behavior of SeisSol is well established, Research Data Management of large-scale parameter studies remains challenging. Expensive HPC results need to be stored and preserved in a FAIR (Findable, Accessible, Interoperable, Reusable) manner. CINECA's Simulation Data Lake (SDL) is tightly integrated with its HPC infrastructure and provides long-term storage of Earth Science Data for the community. The SDL is part of CINECA's AI Factory. We used the SDL to store a catalog of dynamic rupture simulations and provided a rapid-response workflow as a DT-Geo "digital twin component". This workflow allows us to detect moderate-to-large events in the Alto Tiberina (Italy) fault system, download data from the Near-Fault Observatory, and search the catalog for the best-fitting scenario within minutes. Building on this work, we present our vision for a dedicated NFDI4Earth Lighthouse Use Case project to develop metadata standards, upload wizards, and data tools for the broader earthquake and tsunami simulation community.</p>
-      <div class="card-links">
-        <a class="badge" href="files/2026-isc-seissolrdm-presentation.pdf" target="_blank">Slides PDF</a>
-        <a class="badge" href="https://pop-coe.eu/news/events/readiness-of-hpc-extreme-scaling-applications-3rd-edition" target="_blank" rel="noopener">Workshop Website</a>
       </div>
     </div>
 
